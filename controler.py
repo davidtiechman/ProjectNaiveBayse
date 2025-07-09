@@ -1,4 +1,5 @@
 from formula_calculation import entering_parameters, formula_calculation
+from test_model import receiving_data
 
 def option():
     exit = False
@@ -12,8 +13,9 @@ def option():
                 except Exception as e:
                     print(e)
             case '2':
+                receiving_data()
                 pass
             case '#':
                 exit = True
 
-option()
+# option()

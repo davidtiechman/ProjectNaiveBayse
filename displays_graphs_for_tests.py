@@ -4,7 +4,7 @@ import pandas as pd
 from data_analysis_for_training import data_analysis
 
 graph = data_analysis()
-graph.load_data('')
+graph.load_data('true')
 dict_buy,dict_no_buy = graph.analysis()
 custom_buy,custom_no_buy = graph.get_len_list()
 

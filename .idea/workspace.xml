@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="fitst commit">
-      <change afterPath="$PROJECT_DIR$/buy_computer_data_full.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/displays_graphs_for_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy_computer_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/buy_computer_30%.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy_computer_data_hidden.csv" beforeDir="false" afterPath="$PROJECT_DIR$/buy_computer_data_hidden_70%.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buy_computer_30%.csv" beforeDir="false" afterPath="$PROJECT_DIR$/directory folders data/buy_computer_30%.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buy_computer_data_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/directory folders data/buy_computer_data_full.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buy_computer_data_hidden_70%.csv" beforeDir="false" afterPath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/displays_graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,8 @@
     "Python.displays_graphs.executor": "Run",
     "Python.displays_graphs_for_tests.executor": "Run",
     "Python.formula_calculation.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.servers.executor": "Run",
     "Python.table.executor": "Run",
     "Python.test_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,6 +76,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
       <recent name="C:\Users\This_user\PycharmProjects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory foldes data" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,6 +104,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="servers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectNaiv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/servers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.servers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,7 +156,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752050148139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="fitst commit">
+      <option name="closed" value="true" />
+      <created>1752095744670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752095744670</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="fitst commit">
+      <option name="closed" value="true" />
+      <created>1752096107780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752096107780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +187,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="I converted the data analysis file to a class, but the test file still doesn't work because it contains values that are equal to 0 and cannot be divided." />
     <MESSAGE value="fitst commit" />
     <option name="LAST_COMMIT_MESSAGE" value="fitst commit" />
   </component>

@@ -31,5 +31,5 @@ for bar, label in zip(bars_2, df_no_buy['label']):
 plt.xticks(rotation=45)
 # plt.show()
 st.pyplot(fig2)
-print(dict_buy)
-print(dict_no_buy)
+print(f"The diction whit customer's bough is:{dict_buy}")
+print(f"The diction whit customer's not bough is:{dict_no_buy}")

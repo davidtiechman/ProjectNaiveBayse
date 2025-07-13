@@ -1,9 +1,8 @@
 import os.path
 import pandas as pd
+from formula_calculation import FormulaCalculation
 
-from data_analysis_for_training import data_analysis
-from formula_calculation import formula_calculation, entering_parameters, parse_age
-
+test_model = FormulaCalculation('false')
 
 def receiving_data():
     print("You have 2 options\nTo enter manually enter 1\nTo enter a data file enter 2")
@@ -13,8 +12,8 @@ def receiving_data():
         option = input("pleas select option (1-2)")
         if option == '1':
             try:
-                parameters = entering_parameters()
-                result = formula_calculation(parameters[0],parameters[1],parameters[2],parameters[3])
+                parameters = test_model.entering_parameters()
+                result = test_model.formula_calculation(parameters[0],parameters[1],parameters[2],parameters[3])
                 rele_data = real_data()
                 if rele_data:
                     test_documentation(result,rele_data)
@@ -32,11 +31,11 @@ def receiving_data():
                     if os.path.exists(file):
                         df = pd.read_csv(file)
                         for index,row in df.iterrows():
-                            age = parse_age(row['age'])
+                            age =test_model.parse_age(row['age'])
                             income = row['income']
                             student = row['student']
                             cratic_reding = row['credit_rating']
-                            formula_calculation(age,income,student,cratic_reding)
+                            test_model.formula_calculation(age,income,student,cratic_reding)
 
                         # select = True
                     else:

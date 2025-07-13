@@ -63,10 +63,10 @@ class data_analysis:
         # print(f"the dict of customer's how bought: {dict_buy}\nthe dictionary of customer's not bought: {dict_no_buy}")
         # print(custom_but,custom_no_but)
         # print(self.df)
-        print(self.dict_buy.keys())
-        print(self.dict_no_buy.keys())
-        print(self.custom_buy)
-        print(self.custom_no_buy)
+        # print(self.dict_buy.keys())
+        # print(self.dict_no_buy.keys())
+        # print(self.custom_buy)
+        # print(self.custom_no_buy)
         return self.dict_buy,self.dict_no_buy
     def get_len_list(self):
         self.custom_buy =len(self.df[self.df['buys_computer'] == 'yes'])

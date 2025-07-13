@@ -17,5 +17,5 @@ def option():
                 pass
             case '#':
                 exit = True
-
-# option()
+if __name__ == '__main__':
+    option()

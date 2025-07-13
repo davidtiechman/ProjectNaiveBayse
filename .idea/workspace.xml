@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjectNaiv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buy_computer_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buy_computer_data_hidden.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/displays_graphs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
+    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="I finished everything works.">
+      <change afterPath="$PROJECT_DIR$/wirtes_to_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/displays_graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/displays_graphs_for_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs_for_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +28,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testmodel" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/davidtiechman/ProjectNaivBayse.git",
-    "accountId": "443aa0f1-6cc3-4c4b-9e9f-833da2605cff"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;davidtiechman&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davidtiechman/ProjectNaivBayse.git&quot;,
+    &quot;accountId&quot;: &quot;443aa0f1-6cc3-4c4b-9e9f-833da2605cff&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,10 +62,16 @@
   "keyToString": {
     "Python.controler.executor": "Run",
     "Python.data_analysis_for_training.executor": "Run",
+    "Python.displays_graphs.executor": "Run",
+    "Python.displays_graphs_for_tests.executor": "Run",
     "Python.formula_calculation.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.servers.executor": "Run",
     "Python.table.executor": "Run",
+    "Python.test_model.executor": "Run",
+    "Python.wirtes_to_file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "wirtesFolders",
     "last_opened_file_path": "C:/Users/This_user/PycharmProjects/ProjectNaiv"
   }
 }]]></component>
@@ -68,8 +80,35 @@
       <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
       <recent name="C:\Users\This_user\PycharmProjects" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory folders data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory foldes data" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.servers">
+    <configuration name="controler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectNaiv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ProjectNaiv" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +131,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="servers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectNaiv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/servers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.servers" />
+        <item itemvalue="Python.controler" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -109,6 +176,39 @@
       <option name="presentableId" value="Default" />
       <updated>1751964701549</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="fitst commit">
+      <option name="closed" value="true" />
+      <created>1752050148134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752050148139</updated>
+    </task>
+    <task id="LOCAL‎-00002" summary="fitst commit">
+      <option name="closed" value="true" />
+      <created>1752095744670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752095744670</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="fitst commit">
+      <option name="closed" value="true" />
+      <created>1752096107780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752096107780</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="I finished everything works.">
+      <option name="closed" value="true" />
+      <created>1752143288277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752143288277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,15 +222,10 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I converted the data analysis file to a class, but the test file still doesn't work because it contains values that are equal to 0 and cannot be divided." />
+    <MESSAGE value="fitst commit" />
+    <MESSAGE value="I finished everything works." />
+    <option name="LAST_COMMIT_MESSAGE" value="I finished everything works." />
   </component>
 </project>

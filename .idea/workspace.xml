@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="I finished everything works.">
-      <change afterPath="$PROJECT_DIR$/wirtes_to_file.py" afterDir="false" />
+    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="Adding a feature to the model documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/displays_graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/displays_graphs_for_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs_for_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wirtes_to_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/wirtes_to_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.controler.executor": "Run",
-    "Python.data_analysis_for_training.executor": "Run",
-    "Python.displays_graphs.executor": "Run",
-    "Python.displays_graphs_for_tests.executor": "Run",
-    "Python.formula_calculation.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.servers.executor": "Run",
-    "Python.table.executor": "Run",
-    "Python.test_model.executor": "Run",
-    "Python.wirtes_to_file.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "wirtesFolders",
-    "last_opened_file_path": "C:/Users/This_user/PycharmProjects/ProjectNaiv"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.controler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_analysis_for_training.executor&quot;: &quot;Run&quot;,
+    &quot;Python.displays_graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.displays_graphs_for_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.formula_calculation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.servers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wirtes_to_file.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;wirtesFolders&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/This_user/PycharmProjects/ProjectNaiv&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
@@ -86,7 +82,7 @@
       <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory foldes data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.servers">
+  <component name="RunManager">
     <configuration name="controler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectNaiv" />
       <option name="ENV_FILES" value="" />
@@ -208,7 +204,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752143288277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="Adding a feature to the model documentation">
+      <option name="closed" value="true" />
+      <created>1752401767051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752401767051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +230,7 @@
     <MESSAGE value="I converted the data analysis file to a class, but the test file still doesn't work because it contains values that are equal to 0 and cannot be divided." />
     <MESSAGE value="fitst commit" />
     <MESSAGE value="I finished everything works." />
-    <option name="LAST_COMMIT_MESSAGE" value="I finished everything works." />
+    <MESSAGE value="Adding a feature to the model documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a feature to the model documentation" />
   </component>
 </project>

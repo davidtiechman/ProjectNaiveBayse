@@ -5,7 +5,6 @@ from pydantic import BaseModel
 from wirtes_to_file import WiresToFile
 from formula_calculation import FormulaCalculation
 import os
-calculation = FormulaCalculation('true')
 wires = WiresToFile()
 # יצירת מופע של האפליקציה
 app = FastAPI()
@@ -15,13 +14,14 @@ class Customer(BaseModel):
     student: str
     credit_rating: str
 @app.post("/predict")
-async def predict(customer: Customer):
+async def predict(customer: Customer,use_partial_data: bool):
+    calculation = FormulaCalculation(str(use_partial_data).lower())
     statsu_yes, statsu_no, result = calculation.formula_calculation(
         customer.age,customer.income,
         customer.student,customer.credit_rating
     )
-    model_reults = statsu_yes,statsu_no,result
-    wires.wires_to_file([customer.age,customer.income,customer.student,customer.credit_rating],model_reults,True)
+    model_results = statsu_yes,statsu_no,result
+    wires.wires_to_file([customer.age,customer.income,customer.student,customer.credit_rating],model_results,use_partial_data,use_partial_data)
     return {
         "statistics_yes": statsu_yes,
         "statistics_no": statsu_no,

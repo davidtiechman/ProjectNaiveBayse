@@ -7,11 +7,14 @@ class data_analysis:
         self.dict_no_buy = {}
         self.custom_buy = 0
         self.custom_no_buy = 0
+        self.Status = False
     def load_data(self,status):
         test = self.chang_model_status(status)
-        if not test:
+        # לצורך בדיקה אמיתית
+        if  test:
             self.df = pd.read_csv('directory folders data/buy_computer_data_full.csv')
-        elif test:
+            # לצורך אימון בלבד
+        else:
             self.df = pd.read_csv('directory folders data/buy_computer_data_hidden_70%.csv')
         print("Loading file:", "hidden" if test else "full")
     def analysis(self):
@@ -72,11 +75,10 @@ class data_analysis:
         self.custom_buy =len(self.df[self.df['buys_computer'] == 'yes'])
         self.custom_no_buy =len(self.df[self.df['buys_computer'] == 'no'])
         return self.custom_buy,self.custom_no_buy
-    def chang_model_status(self,true):
-        self.status = False
-        if true == 'true':
-            self.status = True
-        return self.status
+    def chang_model_status(self,status):
+        if status == 'full':
+            self.Status = True
+        return self.Status
 
 # a = data_analysis()
 # a.load_data("true")

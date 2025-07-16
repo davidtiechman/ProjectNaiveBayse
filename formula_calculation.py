@@ -4,9 +4,9 @@ from displays_graphs import dict_buy, dict_no_buy
 
 class FormulaCalculation():
     def __init__(self,status):
-        self.status = status
+        # self.status = status
         self.data = data_analysis()
-        self.data.load_data(self.status)
+        self.data.load_data(status)
         self.count_buy,self.count_no_buy = self.data.get_len_list()
         self.dict_buy,self.dict_no_buy = self.data.analysis()
     def entering_parameters(self):
@@ -59,7 +59,7 @@ class FormulaCalculation():
         if age_str.startswith('>'):
             return int(age_str[1:]) + 1
         return int(age_str)
-# a = FormulaCalculation()
+# a = FormulaCalculation('true')
 # a.formula_calculation(40,'medium','yes','fair')
 # print(dict_buy)
 # print(dict_no_buy)

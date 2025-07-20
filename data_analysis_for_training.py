@@ -11,7 +11,7 @@ class data_analysis:
     def load_data(self,status):
         test = self.chang_model_status(status)
         # לצורך בדיקה אמיתית
-        if  test:
+        if not test:
             self.df = pd.read_csv('directory folders data/buy_computer_data_full.csv')
             # לצורך אימון בלבד
         else:
@@ -63,23 +63,16 @@ class data_analysis:
             if count <1:
                 count = 1
             self.dict_no_buy[f'rating_{rating}'] = count/self.custom_no_buy
-        # print(f"the dict of customer's how bought: {dict_buy}\nthe dictionary of customer's not bought: {dict_no_buy}")
-        # print(custom_but,custom_no_but)
-        # print(self.df)
-        # print(self.dict_buy.keys())
-        # print(self.dict_no_buy.keys())
-        # print(self.custom_buy)
-        # print(self.custom_no_buy)
-        return self.dict_buy,self.dict_no_buy
+        return self.dict_buy,self.dict_no_buy,self.custom_buy,self.custom_no_buy
     def get_len_list(self):
         self.custom_buy =len(self.df[self.df['buys_computer'] == 'yes'])
         self.custom_no_buy =len(self.df[self.df['buys_computer'] == 'no'])
         return self.custom_buy,self.custom_no_buy
     def chang_model_status(self,status):
-        if status == 'full':
+        if status == 'true':
             self.Status = True
         return self.Status
 
-# a = data_analysis()
-# a.load_data("true")
-# a.analysis()
+a = data_analysis()
+a.load_data("true")
+print(a.analysis())

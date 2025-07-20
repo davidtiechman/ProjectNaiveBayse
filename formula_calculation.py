@@ -1,7 +1,4 @@
 from data_analysis_for_training import data_analysis
-from displays_graphs import dict_buy, dict_no_buy
-
-
 class FormulaCalculation():
     def __init__(self,status):
         # self.status = status
@@ -31,24 +28,28 @@ class FormulaCalculation():
         a = self.data.custom_buy + self.data.custom_no_buy
         for parameter in parameters:
             if parameter not in self.dict_buy:
-                self.dict_buy[parameter] =1
-                print(self.dict_buy)
+            #     self.dict_buy[parameter] = 1
+            #     print(self.dict_buy)
+                statistics_yes *= 1
+                break
             statistics_yes *= self.dict_buy[parameter]
         statistics_yes *= self.data.custom_buy/a
         for parameter in parameters:
             if  parameter not in self.dict_no_buy:
-                self.dict_no_buy[parameter] = 1
-                print(self.dict_no_buy)
+                # self.dict_no_buy[parameter] = 1
+                # print(self.dict_no_buy)
+                statistics_no *= 1
+                break
             statistics_no *= self.dict_no_buy[parameter]
         statistics_no *= self.data.custom_no_buy/a
-        print(f'statistics yes is: {statistics_yes}')
-        print(f'statistics no is: {statistics_no}')
+        # print(f'statistics yes is: {statistics_yes}')
+        # print(f'statistics no is: {statistics_no}')
         apparently = False
         if statistics_yes > statistics_no:
             apparently = True
         elif statistics_no == statistics_yes:
             apparently = 'equal'
-        print(f'the statistic of the customer wthis buys is {apparently}')
+        # print(f'the statistic of the customer wthis buys is {apparently}')
         return (statistics_yes,statistics_no,apparently)
     def parse_age(self,age_str):
         if '...' in age_str:
@@ -59,7 +60,8 @@ class FormulaCalculation():
         if age_str.startswith('>'):
             return int(age_str[1:]) + 1
         return int(age_str)
-# a = FormulaCalculation('true')
-# a.formula_calculation(40,'medium','yes','fair')
+# a = FormulaCalculation('false')
+# print(a.formula_calculation(40,'medium','yes','fair'))
 # print(dict_buy)
 # print(dict_no_buy)
+# print(len(dict_buy),len(dict_no_buy))

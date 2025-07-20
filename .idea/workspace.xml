@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="Adding a feature to the model documentation">
+    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="I edited the file writing class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" beforeDir="false" afterPath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wirtes_to_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/wirtes_to_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752401767051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="I edited the file writing class.">
+      <option name="closed" value="true" />
+      <created>1752651133555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1752651133555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +238,7 @@
     <MESSAGE value="fitst commit" />
     <MESSAGE value="I finished everything works." />
     <MESSAGE value="Adding a feature to the model documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a feature to the model documentation" />
+    <MESSAGE value="I edited the file writing class." />
+    <option name="LAST_COMMIT_MESSAGE" value="I edited the file writing class." />
   </component>
 </project>

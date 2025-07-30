@@ -1,10 +1,9 @@
-import pandas as pd
-from fastapi import FastAPI, Request, UploadFile,File
+from fastapi import FastAPI
 import uvicorn
 from pydantic import BaseModel
-from wirtes_to_file import WiresToFile
+from model_training_project.wirtes_to_file import WiresToFile
 from formula_calculation import FormulaCalculation
-import os
+
 wires = WiresToFile()
 # יצירת מופע של האפליקציה
 app = FastAPI()

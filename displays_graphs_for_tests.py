@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-from data_analysis_for_training import data_analysis
+from analysis import data_analysis
 
 graph = data_analysis()
 graph.load_data('true')

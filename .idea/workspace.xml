@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="I edited the file writing class.">
+    <list default="true" id="88afc04f-e6bd-45cf-ac62-d1440fd5dd53" name="Changes" comment="A few small fixes">
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/claserfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/load_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/local_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/model_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/predictor/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/trainer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/trainer/load_file_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/trainer/model_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/trainer/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBpredict/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dava_analysis_for_test_project/Dockerfile-streamlit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dava_analysis_for_test_project/data/buy_computer_data_hidden_70%.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dava_analysis_for_test_project/graph_viewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dava_analysis_for_test_project/row.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dava_analysis_for_test_project/training_record_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared_data/buy_computer_data_full.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis_for_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" beforeDir="false" afterPath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/formula_calculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis_for_training.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory folders data/buy_computer_30%.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory folders data/buy_computer_data_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NBpredict/shared_data/buy_computer_data_full.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory folders data/buy_computer_data_hidden_70%.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/displays_graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/displays_graphs_for_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/displays_graphs_for_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formula_calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wirtes_to_file.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testmodel" />
+        <entry key="$PROJECT_DIR$" value="wirtesFolders" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +67,12 @@
     &quot;accountId&quot;: &quot;443aa0f1-6cc3-4c4b-9e9f-833da2605cff&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/streamlit/elements/form.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -53,35 +84,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.controler.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_analysis_for_training.executor&quot;: &quot;Run&quot;,
-    &quot;Python.displays_graphs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.displays_graphs_for_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.formula_calculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.servers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.table.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wirtes_to_file.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;wirtesFolders&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/This_user/PycharmProjects/ProjectNaiv&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Prediction model.executor": "Run",
+    "Python.analysis.executor": "Run",
+    "Python.claserfile.executor": "Run",
+    "Python.controler.executor": "Run",
+    "Python.data_analysis_for_training.executor": "Run",
+    "Python.displays_graphs.executor": "Run",
+    "Python.displays_graphs_for_tests.executor": "Run",
+    "Python.formula_calculation.executor": "Run",
+    "Python.graph_viewer.executor": "Run",
+    "Python.local_run.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.prediction.executor": "Run",
+    "Python.row.executor": "Run",
+    "Python.servers.executor": "Run",
+    "Python.table.executor": "Run",
+    "Python.table_for_graphs.executor": "Run",
+    "Python.test_model.executor": "Run",
+    "Python.trainer.executor": "Run",
+    "Python.wirtes_to_file.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tow__conatainer",
+    "last_opened_file_path": "C:/Users/This_user/PycharmProjects/ProjectNaiv/NBpredict/shared_data",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict\shared_data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict\trainer\data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\dava_analysis_for_test_project\data" />
       <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
       <recent name="C:\Users\This_user\PycharmProjects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory folders data" />
-      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv" />
-      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\directory foldes data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\shared_data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict\trainer\app\data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict\shared_data" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict\trainer" />
+      <recent name="C:\Users\This_user\PycharmProjects\ProjectNaiv\NBpredict" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="controler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectNaiv" />
       <option name="ENV_FILES" value="" />
@@ -219,8 +265,19 @@
       <option name="project" value="LOCAL‎" />
       <updated>1752651133555</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="A few small fixes">
+      <option name="closed" value="true" />
+      <created>1753003978348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1753003978348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -239,6 +296,38 @@
     <MESSAGE value="I finished everything works." />
     <MESSAGE value="Adding a feature to the model documentation" />
     <MESSAGE value="I edited the file writing class." />
-    <option name="LAST_COMMIT_MESSAGE" value="I edited the file writing class." />
+    <MESSAGE value="A few small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="A few small fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_analysis_for_test_project/wirtes_to_file.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dava_analysis_for_test_project/main.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dava_analysis_for_test_project/main.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dava_analysis_for_test_project/formula_calculation.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dava_analysis_for_test_project/row.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
